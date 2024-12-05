@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aks Industries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <img src="image/aks.png" alt="Logo Aks Industries" class="logo">
+            <h1>Aks Industries</h1>
+            <nav class="nav-buttons">
+                <button data-section="presentation" type="button">Présentation</button>
+                <button data-section="creations" type="button">Créations</button>
+                <button data-section="contact" type="button">Contact</button>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Présentation -->
+            <section id="presentation" style="display: block;">
+                <h2>Présentation</h2>
+                <p>
+                    Je suis Aksel Rigaud, développeur web en formation passionné par la création de sites modernes, interactifs et optimisés. Curieux et en constante progression, j'explore les technologies web comme HTML, CSS, JavaScript et Vue.js pour construire des projets qui reflètent ma créativité et mes compétences.
+                    <br>
+                    🌟 <strong>Objectif :</strong> devenir un développeur accompli en contribuant à des projets innovants et en répondant aux besoins des utilisateurs.
+                    <br>
+                    📚 <strong>Apprentissage continu :</strong> Je suis toujours à la recherche de nouvelles techniques et bonnes pratiques pour m'améliorer et proposer un code propre et performant.
+                    <br>
+                    Parlons-en ! Si vous êtes curieux de mon parcours ou souhaitez collaborer, n'hésitez pas à me contacter. 😊
+                    <br>
+                    <strong>Aks Industries</strong> est un projet de portfolio personnel développé dans le cadre d'une formation en développement web. 
+                    Ce site met en avant les compétences acquises en <strong>HTML, CSS, JavaScript et Vue.js</strong> et illustre les réalisations à travers un design moderne et interactif. 
+                    <br>
+                    <strong>Pourquoi ce portfolio ?</strong>
+                    <br>
+                    Ce site est à la fois une vitrine de mes compétences et un témoignage de mon parcours en tant que développeur en devenir. Votre retour est le bienvenu ! 🚀
+                </p>
+            </section>
+
+            <!-- Créations -->
+            <section id="creations" style="display: none;">
+                <h2>Créations</h2>
+                <div class="carousel">
+                    <div class="slides">
+                        <!-- Lien pour le CV -->
+                        <a href="https://github.com/Aksel01360/cv-iconique" target="_blank">
+                            <img
+                                src="image/cv_portfolio.PNG"
+                                alt="CV Portfolio"
+                                class="slide"
+                                style="display: block;"
+                            >
+                        </a>
+                        <!-- Lien pour La Socketterie -->
+                        <a href="file:///C:/Users/Aks/Documents/cahier%20des%20charges%20pdf.pdf" target="_blank">
+                            <img
+                                src="./image/La_socketterie.png"
+                                alt="La Socketterie"
+                                class="slide"
+                                style="display: none;"
+                            >
+                        </a>
+                    </div>
+                    <button id="prev" type="button" aria-label="Slide précédent">◀</button>
+                    <button id="next" type="button" aria-label="Slide suivant">▶</button>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact" style="display: none;">
+                <h2>Contact</h2>
+                <form>
+                    <label for="name">Nom et prénom :</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="subject">Objet :</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <div>
+                <div id="logo">
+                    <a href="https://github.com" target="_blank" aria-label="GitHub">
+                        <img src="image/git.png" alt="GitHub" width="50">
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <img src="image/linkedin.png" alt="LinkedIn" width="50">
+                    </a>
+                </div>
+                <p>Dernière Mise à jour le 5/12/24</p>
+            </div>
+            
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
